@@ -18,9 +18,16 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
   });
 });
 
+
 /* ---------- Typing animation (hero) ---------- */
 const typingElem = document.querySelector('.typing-text');
-const roles = ['Data Analyst', 'Software Development Engineer', 'Problem Solver'];
+const roles = [
+  "Data Analyst",
+  "Power BI Developer",
+  "SQL Enthusiast",
+  "Bussiness Analyst",
+  "Tableau Developer"
+];
 let rIdx = 0, cIdx = 0, deleting = false;
 
 function typeLoop() {
