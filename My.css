@@ -823,3 +823,122 @@ footer span{
 .achievement-card p{
     color:#e2e8f0;
 }
+
+/* =========================
+   MOBILE RESPONSIVE DESIGN
+========================= */
+
+@media (max-width: 768px) {
+
+    /* Hero Section */
+    .hero-container{
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .hero-image{
+        width: 220px;
+        height: 220px;
+        margin: auto;
+    }
+
+    .hero-text h1{
+        font-size: 2.2rem;
+        line-height: 1.2;
+    }
+
+    .hero-text p{
+        font-size: 1rem;
+    }
+
+    /* Buttons */
+    .buttons{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .buttons .btn{
+        width: 220px;
+        text-align: center;
+    }
+
+    /* Stats */
+    .stats{
+        justify-content: center;
+        gap: 30px;
+    }
+
+    /* Skills */
+    .skills-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    /* Projects */
+    .project-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .project-card img{
+        height: 180px;
+    }
+
+    .project-buttons{
+        flex-direction: column;
+    }
+
+    .project-link,
+    .demo-link{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    /* Certificates */
+    .cert-grid{
+        grid-template-columns: 1fr;
+    }
+
+    /* Experience */
+    .experience-card{
+        padding: 20px;
+    }
+
+    /* Contact */
+    .contact-buttons{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Titles */
+    h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .subtitle{
+        text-align: center;
+    }
+
+    /* Boxes */
+    .box{
+        padding: 25px;
+    }
+}
+
+@media (max-width:768px){
+
+    .topbar{
+        padding: 15px 20px;
+    }
+
+    .logo{
+        font-size: 1rem;
+    }
+
+    .social-icons{
+        display:none;
+    }
+
+}
